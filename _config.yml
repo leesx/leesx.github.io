@@ -69,11 +69,11 @@ disqus_username: turingdo
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: e77278b3e748262aa745bd3f20d87cd6
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto
 
 
 
@@ -98,12 +98,12 @@ friends: [
         href: "http://lishangxi.cn"
     },{
         title: "github",
-        href: "https://github.com/leesx"
+        href: "http://github.com/leesx"
     },{
         title: "HiChat",
-        href: "https://chat.lishangxi.cn"
+        href: "http://chat.lishangxi.cn"
     },{
         title: "React组件实验室",
-        href: "https://lab.lishangxi.cn/"
+        href: "http://lab.lishangxi.cn/"
     }
 ]
