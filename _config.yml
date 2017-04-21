@@ -1,13 +1,13 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: Turingdo Studio
+SEOTitle: 图灵大盗的博客 | Turingdo Studio
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "每个胜利背后都有许多尝试"
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: 1058315063@qq.com
+description: "每天一点点,世界日日新——前端开发工程师"
+keyword: "React,Node.js,JavaScript,Vue,Es2015"
+url: "http://leesx.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/leesx/leesx.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -94,16 +94,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "小博客",
+        href: "http://lishangxi.cn"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "github",
+        href: "https://github.com/leesx"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "HiChat",
+        href: "https://chat.lishangxi.cn"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "React组件实验室",
+        href: "https://lab.lishangxi.cn/"
     }
 ]
