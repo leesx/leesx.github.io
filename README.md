@@ -3,7 +3,7 @@
 这个README我直接拿[Hux](https://github.com/Huxpro/huxpro.github.io)的来修改了。😅
 ### [我的博客在这里 &rarr;](http://leesx.github.io)
 
-
+![](https://raw.githubusercontent.com/leesx/leesx.github.io/master/img/readme-home.png)
 
 
 ## 使用
