@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      Hello 2017
-subtitle:    "\"Hello World, Hello Blog\""
-date:       2017-02-04
+title:      Mixin 已死，Composition 万岁
+subtitle:    
+date:       2016-11-03
 author:     leesx
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - 生活
+    - 高阶组件
 ---
 
 > “🙉🙉🙉 ”

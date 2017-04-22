@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      javascript 技术精要
-subtitle:    "\"Hello World, Hello Blog\""
+subtitle:    "一些经常遇到的问题总结"
 date:       2017-10-04
 author:     leesx
 header-img: img/post-bg-2015.jpg
@@ -9,6 +9,8 @@ catalog: true
 tags:
     - javascript
     - 技术精要
+    - 闭包
+    - 原型与原型链
 ---
 
 > “🙉🙉🙉 ”
