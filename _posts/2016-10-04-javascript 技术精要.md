@@ -7,7 +7,7 @@ author:     leesx
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - javascript
+    JavaScript
     - 技术精要
     - 闭包
     - 原型与原型链

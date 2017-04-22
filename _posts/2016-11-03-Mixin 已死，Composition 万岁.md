@@ -7,6 +7,7 @@ author:     leesx
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
+    JavaScript
     - 高阶组件
 ---
 
