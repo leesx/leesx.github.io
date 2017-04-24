@@ -431,6 +431,7 @@ if(!Function.prototype.bind){
 ### 常用方法
 
 - 数组去重
+
 ```
 //es6 先转化为Set数据结构再，通过扩展运算符(...)，转化为数组
 //扩展运算符（...）内部使用for...of循环
@@ -438,6 +439,7 @@ if(!Function.prototype.bind){
 
 ```
 - 类数组转化为数组
+
 ```
 //es6 通过扩展运算符(...)转化
 [...document.querySeletorAll('div')]
@@ -455,6 +457,7 @@ Array.prototype.slice.call(arguments,0)
 ### 正则提取url中的参数
 
 - 获取指定URL参数
+
 ```
 function getUrlParams(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); //定义正则表达式
@@ -473,6 +476,7 @@ var sex = getUrlParams("sex");　//male
 substr()这个函数的作用是截取字符串，在代码中window.location.search.surstr(1) 意思就是截取第一个字符后面的字符串，所得到的值即是"name=elephant&age=25&sex=male" unescape这个函数的作用是解码escape编码后的字符串
 
 - 获取所有的URL参数
+
 ```
 function parse_url(_url){ //定义函数
 　　var pattern = /(\w+)=(\w+)/ig;//定义正则表达式
