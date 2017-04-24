@@ -79,6 +79,7 @@ function deepCopy(p,c){
 > 常用的继承方式
 
 1. 仅从原型继承 prototype
+
 ```
 function Animal(){
  this.home = '我属于动物园'
@@ -105,6 +106,7 @@ yellowDog.speak()
 ```
 
 2. 原型链继承（仿传统）
+
 ```
 function Animal(){
  this.home = '我属于动物园'
@@ -130,6 +132,7 @@ yellowDog.speak()
 
 ```
 3. 借用构造函数法
+
 ```
 
 function Animal(name,color){
@@ -237,7 +240,8 @@ Base.call(obj);
 > (3)对"基准"左边和右边的两个子集，不断重复第一步和第二步，直到所有子集只剩下一个元素为止。
 
 　　
-==取数组中间的值当做参考值，并且把它从原数组中用splice方法截取==　　
+> 取数组中间的值当做参考值，并且把它从原数组中用splice方法截取　　
+
 ```
 function quickSort(arr){
   arr = arr || [];
@@ -260,7 +264,9 @@ function quickSort(arr){
 }
 
 ```
-==将数组的第一个元素当做参考值，for循环从1开始==
+
+> 将数组的第一个元素当做参考值，for循环从1开始
+
 ```
 var a = [2,4,5,63,4,5,63,2,4,43];
 
@@ -487,5 +493,3 @@ var params = parse_url(url);// ["name=elephant", "age=25", "sex=male"]
 再继续匹配到age=25;此时执行function(a,b,c);其中a的值为:age=25,b的值为age,c的值为25;然后将数组的key为id的值赋为25.
 
 
-
-—— leesx 后记于 2017.2
