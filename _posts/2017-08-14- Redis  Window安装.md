@@ -1,6 +1,6 @@
 [参考文章](http://www.jb51.net/softs/541181.html)
 
->  redis windows是一个key-value存储系统，本站为大家提供的redis windows下载地址包含32位与64位，可根据自己的实际情况选择，都是windows环境的，Redis是一个key-value存储系统。Redis的出现，很大程度补偿了memcached这类key/value存储的不足，在部分场合可以对关系数据库起到很好的补充作用，有需要此款工具的朋友们欢迎前来下载使用。
+>  Redis是一个key-value存储系统。Redis的出现，很大程度补偿了memcached这类key/value存储的不足，在部分场合可以对关系数据库起到很好的补充作用，有需要此款工具的朋友们欢迎前来下载使用。
 
 #### 基本简介
 
