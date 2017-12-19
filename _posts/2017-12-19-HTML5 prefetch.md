@@ -2,6 +2,8 @@
 
 [文章来自](http://www.jianshu.com/p/7f58ddfc1392)
 
+相关阅读MDN [通过rel="preload"进行内容预加载](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Preloading_content)
+
 - prefetch 即预加载，在用户需要前我们就将所需的资源加载完毕。
 
 有了浏览器缓存，为何还需要预加载？
