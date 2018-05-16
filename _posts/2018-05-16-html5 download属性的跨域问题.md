@@ -15,7 +15,7 @@
   <div> 
    <a href="./w3logo.gif" download="test.gif"> <img border="0" src="http://www.w3school.com.cn/i/w3school_logo_white.gif" alt="W3School" /> </a> 
   </div> 
-  <h2>非跨域下的图片资源</h2> 
+  <h2>跨域下的图片资源</h2> 
   <div> 
    <a href="http://www.w3school.com.cn/i/eg_tulip.jpg" download="test.jpg"> <img border="0" src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="W3School" /> </a> 
   </div> 
