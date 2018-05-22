@@ -1,4 +1,5 @@
 
+## 图片预加载最新解决思路 IntersetionOberver
 
 > 特别声明：本文转载[@小影](//c7sky.com/)的译文《[使用 Intersection Observer 实现图片延迟加载](//c7sky.com/lazy-loading-images-using-intersection-observer.html)》一文。
 
