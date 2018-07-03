@@ -10,6 +10,7 @@
 # (style)(Demo.jsx): U 更新 格式化代码
 # (feat)(FoodMenu.jsx): A 新增 菜品多规格功能
 # (fix)(FoodGroup.jsx): F 修复 新建菜品时,前端报promise错误(closes #123)
+# (refactor)(ImportFoodExcel.jsx): U 更新 重构菜品导入功能
 
 # type 字段包含:
 # feat：新功能（feature）
