@@ -462,5 +462,3 @@ Fiber介绍类
 [How React Fiber can make your web and mobile apps smoother and more responsive](https://www.monterail.com/blog/2017/react-fiber-release)
 
 [React的新引擎—React Fiber是什么？](https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/)
-
-</div>
