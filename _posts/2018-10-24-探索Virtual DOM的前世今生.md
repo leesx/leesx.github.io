@@ -4,17 +4,16 @@
 
 在前端开发过程中，对性能产生最大影响的因素莫过于DOM的重排重绘了，React作为前端框架领跑者，为了有效解决DOM更新开销的问题，采用了Virtual DOM的思路，不仅提升了DOM操作的效率，更推动了数据驱动式组件开发的形成与完善。一旦习惯了数据驱动式开发，再要求我们使用显式DOM操作开发的话，虐心程度无异于春节返乡的车票卖完了，只能坐长途辗转煎熬了。
 
-<figure>
 
-<noscript>![](https://pic1.zhimg.com/v2-521696e3d813bab387c939ed7d5af064_b.jpg)</noscript>
 
-![](https://pic1.zhimg.com/80/v2-521696e3d813bab387c939ed7d5af064_hd.jpg)</figure>
+![](https://pic1.zhimg.com/v2-521696e3d813bab387c939ed7d5af064_b.jpg)
+
+![](https://pic1.zhimg.com/80/v2-521696e3d813bab387c939ed7d5af064_hd.jpg)
 
 而VirtualDOM的主要思想就是模拟DOM的树状结构，在内存中创建保存映射DOM信息的节点数据，在由于交互等因素需要视图更新时，先通过对节点数据进行diff后得到差异结果后，再一次性对DOM进行批量更新操作，这就好比在内存中创建了一个平行世界，浏览器中DOM树的每一个节点与属性数据都在这个平行世界中存在着另一个版本的虚拟DOM树，所有复杂曲折的更新逻辑都在平行世界中的VirtualDOM处理完成，只将最终的更新结果发送给浏览器中的DOM树执行，这样就避免了冗余琐碎的DOM树操作负担，进而有效提高了性能。
 
-<figure>
 
-<noscript>![](https://pic4.zhimg.com/v2-5989c613dd021fa8a3c4d8a3dde42cff_b.jpg)</noscript>
+![](https://pic4.zhimg.com/v2-5989c613dd021fa8a3c4d8a3dde42cff_b.jpg)
 
 ![](https://pic4.zhimg.com/80/v2-5989c613dd021fa8a3c4d8a3dde42cff_hd.jpg)</figure>
 
