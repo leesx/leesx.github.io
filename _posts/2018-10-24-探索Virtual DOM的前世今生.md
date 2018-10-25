@@ -15,7 +15,7 @@
 
 ![](https://pic4.zhimg.com/v2-5989c613dd021fa8a3c4d8a3dde42cff_b.jpg)
 
-![](https://pic4.zhimg.com/80/v2-5989c613dd021fa8a3c4d8a3dde42cff_hd.jpg)</figure>
+![](https://pic4.zhimg.com/80/v2-5989c613dd021fa8a3c4d8a3dde42cff_hd.jpg)
 
 如果你已经是熟练使用vue或者react的项目老手，本文将助你一探这些前端框架进行视图更新背后的工作原理，并且可以一定程度掌握VirtualDOM的核心算法，即便你还未享受过这些数据驱动的工具带来的便利，通过阅读本文，你也将了解到一些当下的前端框架是如何对开发模式产生巨变影响的。同时本文也是我们对相关知识学习的一个总结，难免有误，欢迎多多指正，并期待大大们的指点。
 
@@ -33,31 +33,21 @@ VirtualDOM是react在组件化开发场景下，针对DOM重排重绘性能瓶�
 
 由于diff的数据结构是以DOM渲染为目标的模拟树状层级结构的节点数据，而在WebUI中很少出现DOM的层级结构因为交互而产生更新，因此VirtualDOM的diff策略是在新旧节点树之间按层级进行diff得到差异，而非传统的按深度遍历搜索，这种通过大胆假设得到的改进方案，不仅符合实际场景的需要，而且大幅降低了算法实现复杂度，从O(n^3)提升至O(n)。
 
-<figure>
-
-<noscript>![](https://pic2.zhimg.com/v2-66d26903749c0ac081f8caa9ef649375_b.jpg)</noscript>
-
 ![](https://pic2.zhimg.com/80/v2-66d26903749c0ac081f8caa9ef649375_hd.jpg)</figure>
 
 *   **按类型进行diff**
 
 无论VirtualDOM中的节点数据对应的是一个原生的DOM节点还是vue或者react中的一个组件，不同类型的节点所具有的子树节点之间结构往往差异明显，因此对不同类型的节点的子树进行diff的投入成本与产出比将会很高昂，为了提升diff效率，VirtualDOM只对相同类型的同一个节点进行diff，当新旧节点发生了类型的改变时，则并不进行子树的比较，直接创建新类型的VirtualDOM，替换旧节点。
 
-<figure>
 
-<noscript>![](https://pic3.zhimg.com/v2-7a8223157d138dde39c32e6edd42b0b2_b.jpg)</noscript>
-
-![](https://pic3.zhimg.com/80/v2-7a8223157d138dde39c32e6edd42b0b2_hd.jpg)</figure>
+![](https://pic3.zhimg.com/80/v2-7a8223157d138dde39c32e6edd42b0b2_hd.jpg）
 
 *   **列表diff**
 
 当被diff节点处于同一层级时，通过三种节点操作新旧节点进行更新：插入，移动和删除，同时提供给用户设置key属性的方式调整diff更新中默认的排序方式，在没有key值的列表diff中，只能通过按顺序进行每个元素的对比，更新，插入与删除，在数据量较大的情况下，diff效率低下，如果能够基于设置key标识尽心diff，就能够快速识别新旧列表之间的变化内容，提升diff效率。
 
-<figure>
 
-<noscript>![](https://pic2.zhimg.com/v2-54c7c636c5586881665b4edeef221ad1_b.jpg)</noscript>
-
-![](https://pic2.zhimg.com/80/v2-54c7c636c5586881665b4edeef221ad1_hd.jpg)</figure>
+![](https://pic2.zhimg.com/80/v2-54c7c636c5586881665b4edeef221ad1_hd.jpg)
 
 ## Virtual DOM不同的实现方式
 
