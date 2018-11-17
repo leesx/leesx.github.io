@@ -1,5 +1,7 @@
 基于react的前端国际化，当然会用到[yahoo/react-intl](http://link.zhihu.com/?target=https%3A//github.com/yahoo/react-intl).  
 
+[参考demo](https://github.com/leesx/react-intl-demo2018)  
+
 #### 参考文章  
 [antd design国际化](https://ant.design/components/locale-provider-cn/)  
 [实战React App的i18n](https://segmentfault.com/a/1190000012036817)  
