@@ -19,11 +19,11 @@
   <div> 
    <a href="http://www.w3school.com.cn/i/eg_tulip.jpg" download="test.jpg"> <img border="0" src="http://www.w3school.com.cn/i/eg_tulip.jpg" alt="W3School" /> </a> 
   </div> 
-  <iframe id="iframe" src="http://res.hualala.com" style="display:block;"> &lt;a href=&quot;http://res.hualala.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg&quot; download=&quot;test.jpg&quot;&gt; &lt;img border=&quot;0&quot; src=&quot;http://res.hualala.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg&quot; alt=&quot;W3School&quot;&gt; &lt;/a&gt; </iframe> 
+  <iframe id="iframe" src="http://res.c.com" style="display:block;"> &lt;a href=&quot;http://res.leesx.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg&quot; download=&quot;test.jpg&quot;&gt; &lt;img border=&quot;0&quot; src=&quot;http://res.leesx.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg&quot; alt=&quot;W3School&quot;&gt; &lt;/a&gt; </iframe> 
   <script>
 
     var a =document.createElement('a');
-    a.href="http://res.hualala.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg";
+    a.href="http://res.leesx.com/group3/M03/4D/25/wKgVw1r7tR6s7fv4AAAYHny1Ero670.jpg";
     console.dir(window.frames['iframe'])
     a.download="tests.jpg"
     
