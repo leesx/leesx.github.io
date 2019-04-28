@@ -33,3 +33,34 @@
  </body>
 </html>
 ```
+
+### server
+```
+// 下载静态资源服务器资源
+    router.get('/api/v1/download', async (ctx) => {
+        const { request } = ctx
+        const { fileurl, filename } = request.query
+
+        if (!fileurl) {
+            throw new Error('fileurl is a required parameter')
+        }
+
+        // const url = combine(getServiceURL(service), method, ctx.search)
+        const options = await getOption(ctx)
+        const { headers, body } = await ctx.fetchFile(fileurl, options)
+        const refilename = filename || fileurl.split('/').pop();
+        const DISPOSITION = `attachment; filename="${encodeURI(refilename)}"`;
+        ctx.set(HTTP_HEADER.CONTENT_DISPOSITION, DISPOSITION)
+        ctx.set('Content-Type', headers.get('content-type'))
+        ctx.set('Content-Transfer-Encoding', 'binary')
+        ctx.set('Cache-Control', 'no-cache')
+        ctx.set('Expires', '0')
+        ctx.set('Pragma', 'no-cache')
+        ctx.body = body
+    })
+```
+
+### 前端
+```
+<a href={`/api/v1/download?fileurl=${record.fileUri}&filename=${record.fileName}.${record.suffixName}`}>下载测试</a>
+```
