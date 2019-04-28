@@ -47,8 +47,8 @@
         }
 
         // const url = combine(getServiceURL(service), method, ctx.search)
-        const options = await getOption(ctx)
-        const { headers, body } = await ctx.fetchFile(fileurl, options)
+        // const options = await getOption(ctx)
+        const { headers, body } = await ctx.fetch(fileurl, {})
         const refilename = filename || fileurl.split('/').pop();
         const DISPOSITION = `attachment; filename="${encodeURI(refilename)}"`;
         ctx.set(HTTP_HEADER.CONTENT_DISPOSITION, DISPOSITION)
