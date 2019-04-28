@@ -34,7 +34,7 @@
 </html>
 ```
 ## 有效的方案
-- server （）
+- server （nodejs koa2）
 
 ```
 // 下载静态资源服务器资源
@@ -62,6 +62,8 @@
 ```
 
 - 前端
+
+> 必须通过 a 的href属性设置，不能通过ajax异步请求数据，否则无法触发浏览器的自动下载机制
 
 ```
 <a href={`/download?fileurl=${record.fileUri}&filename=${record.fileName}.${record.suffixName}`}>下载测试</a>
