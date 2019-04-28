@@ -33,11 +33,12 @@
  </body>
 </html>
 ```
+## 有效的方案
+- server （）
 
-### server
 ```
 // 下载静态资源服务器资源
-    router.get('/api/v1/download', async (ctx) => {
+    router.get('/download', async (ctx) => {
         const { request } = ctx
         const { fileurl, filename } = request.query
 
@@ -60,7 +61,8 @@
     })
 ```
 
-### 前端
+- 前端
+
 ```
-<a href={`/api/v1/download?fileurl=${record.fileUri}&filename=${record.fileName}.${record.suffixName}`}>下载测试</a>
+<a href={`/download?fileurl=${record.fileUri}&filename=${record.fileName}.${record.suffixName}`}>下载测试</a>
 ```
