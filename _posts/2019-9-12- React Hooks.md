@@ -64,3 +64,4 @@ const [state, setState] = useState(() => {return initialState}) // 该函数返�
 `useCallback(x => console.log(x), [m])` 等价于 `useMemo( () => x => console.log(x), [m])`
 
 React.memo 其实是对props进行了浅比较，如果props的key是引用类型或者事件绑定，都会导致比较失败，重新渲染
+useMemo和useCallback都会在组件第一次渲染的时候执行，之后会在其依赖的变量发生改变时再次执行；并且这两个hooks都返回缓存的值，useMemo返回 缓存的变量，useCallback返回 缓存的函数
