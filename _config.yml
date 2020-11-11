@@ -72,8 +72,8 @@ disqus_username: leesx
 ba_track_id: e77278b3e748262aa745bd3f20d87cd6
 
 # Google Analytics
-#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-#ga_domain: auto
+ga_track_id: 'G-2S59NVL4SM'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
