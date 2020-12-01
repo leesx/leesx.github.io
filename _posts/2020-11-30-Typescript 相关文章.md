@@ -6,4 +6,7 @@
 
 [Typescript夯实基础——react](https://juejin.cn/post/6869580500143947789)
 
-[TypeScript 中使用React Hook](https://juejin.cn/post/6844903856321626126)
+[TypeScript 中使用React Hook](https://juejin.cn/post/6844903856321626126)  
+
+[深入挖掘 TypeScript （《TypeScript Deep Dive》 中文版）](https://rexdainiel.gitbooks.io/typescript/content/)
+
