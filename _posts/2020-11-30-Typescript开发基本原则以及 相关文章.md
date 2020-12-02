@@ -18,6 +18,7 @@
 - 对class interface
 
 ### [TypeScript 入门教程](https://ts.xcatliu.com/)  
+[React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)  
 
 [TypeScript中的高级类型工具类型及关键字](https://juejin.cn/post/6900712964299423758#heading-1)
 
