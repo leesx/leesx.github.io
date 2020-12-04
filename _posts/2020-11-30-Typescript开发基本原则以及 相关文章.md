@@ -29,7 +29,7 @@
 [深入挖掘 TypeScript （《TypeScript Deep Dive》 中文版）](https://rexdainiel.gitbooks.io/typescript/content/)
 
 
-### Basic Prop Types Examples
+### Basic Prop Types Examples 最佳实践
 
 ```
 type AppProps = {
@@ -71,7 +71,7 @@ type AppProps = {
 };
 ```
 
-### Useful React Prop Type Examples
+### Useful React Prop Type Examples 最佳实践
 
 ```
 export declare interface AppProps {
@@ -88,4 +88,9 @@ export declare interface AppProps {
   props2: Props & React.ComponentPropsWithRef<MyButtonWithForwardRef>; // to impersonate all the props of MyButtonForwardedRef and explicitly forwarding its ref
 }
 ```
+`JSX.Element` 与 `React.ReactNode` 的区别  
+> JSX.Element -> Return value of React.createElement
+> React.ReactNode -> Return value of a component
+
+优先考虑使用 `React.ReactNode`
 
