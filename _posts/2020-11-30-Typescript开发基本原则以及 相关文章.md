@@ -16,6 +16,8 @@
 - react组件中使用as进行断言
 - 对基本类型的组合使用别名 type 
 - 对class interface
+- typeof 操作符可以用来获取一个变量或对象的结构化类型或者函数的结构化类型
+- keyof 操作符可以用于获取某种类型的所有键，其返回类型是联合类型
 
 ### [TypeScript 入门教程](https://ts.xcatliu.com/)  
 [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app/)  
