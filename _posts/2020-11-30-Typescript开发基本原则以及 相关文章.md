@@ -96,3 +96,8 @@ export declare interface AppProps {
 
 优先考虑使用 `React.ReactNode`
 
+`any` 与 `unkown`的区别  
+
+在typescript中，当我们不确定一个类型是什么类型的，可以选择给其声明为any或者unkown。但实际上，**typescript推荐使用unknown，因为unknown是类型安全的**。
+
+当使用`any`的时候，你可以任意的取值赋值，不会进行任何的类型检查。但`unkown`就不一样了，必须先进行断言 就是使用typeof 或 instanceof 来判断类型, 也就是说unkown只是指明了类型还未确认，后续还需要你去断言，也就是他并未放弃类型检查。。
