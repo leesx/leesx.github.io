@@ -94,8 +94,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "小博客",
-        href: "http://lishangxi.cn"
+        title: "马上连接",
+        href: "https://www.mashanglianjie.com"
     },{
         title: "github",
         href: "http://github.com/leesx"
