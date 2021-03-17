@@ -95,7 +95,7 @@ service-worker: true
 friends: [
     {
         title: "马上连接",
-        href: "https://www.mashanglianjie.com"
+        href: "http://www.mashanglianjie.com"
     },{
         title: "github",
         href: "http://github.com/leesx"
