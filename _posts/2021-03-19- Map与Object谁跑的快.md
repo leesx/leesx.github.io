@@ -17,3 +17,5 @@ Map 和 Object 各有千秋，对于不同的情况下，我们应当作出不�
 
 
 虽然 Map 在很多情况下会比 Object 更为高效，不过 Object 永远是 JS 中最基本的引用类型，它的作用也不仅仅是为了储存键值对。
+
+[JS 项目中究竟应该使用 Object 还是 Map？](https://juejin.cn/post/6941232930945499173#heading-3)
