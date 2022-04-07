@@ -1,0 +1,9 @@
+### MAC安装Homebrew教程（国内地址)
+
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+### 编程等宽字体 FiraCode
+
+[FiraCode](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
